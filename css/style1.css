@@ -1,0 +1,66 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+header{
+  height: 100px;
+  background-color: #39b54a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer{
+  left: 0; bottom: 0; /* Левый нижний угол */
+  padding: 10px; /* Поля вокруг текста */
+  background: #39b54a; /* Цвет фона */
+  color: #fff; /* Цвет текста */
+}
+header>.logo{
+  width: 200px;
+}
+header>nav{
+  font-size: 2em;
+  margin: 10px;
+}
+header>nav li{
+  display: inline;
+}
+/*сделаем ссылку ввиде кнопки*/
+.c{
+  /*border: 2px solid #333;Рамка */
+  /*display: inline-block;*/
+  padding: 10px 20px; /* Поля */
+  text-decoration: none; /* Убираем подчёркивание */
+  color: white; /* Цвет текста */
+  border-radius: 5px; 
+  margin: 5px;
+  font: 20px/1 Arial, sans-serif;
+  background-color: navy;
+  }
+ .c:hover {
+  box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Тень */
+  background: linear-gradient(to bottom, #fcfff4, #e9e9ce); /* Градиент */
+  color: #a00;
+  transform: scale(1.2);
+ }
+.dom{
+  position: absolute;
+  top: 11px;
+  right: 18px;
+  color: #fff;
+  background: #f55123;
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 20px;
+  min-width: 20px;
+  text-align: center;
+}
+.smallcart1{
+  margin-right: 20px;
+}
+.smallCart{
+  width: 70px; 
+}
+.hidden{
+  visibility: hidden;
+}
