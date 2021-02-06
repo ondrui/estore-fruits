@@ -9,7 +9,7 @@
 <body>
   <header>
     <a href="index.php" class="logo"> <!--делаем картинку ссылкой-->
-      <img src="http://ondrui.beget.tech/estore/images/bender.jpg" height="100%" width="139px">
+      <img src="http://ondrui.beget.tech/estore-fruits/images/bender.jpg" height="100%" width="139px">
     </a>
     <nav>
       <?php
@@ -35,7 +35,7 @@
         if($value == $uri){
           continue;
         }
-        echo "<a href='http://ondrui.beget.tech/estore/$value' class='c'>$key</a>";
+        echo "<a href='http://ondrui.beget.tech/estore-fruits/$value' class='c'>$key</a>";
       }
       ?>
     </nav>

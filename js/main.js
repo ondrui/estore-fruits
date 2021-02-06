@@ -107,7 +107,7 @@ function addToCart() {
     cart[id]++; //если есть такой, то прибавляем одну шт
   }
   //console.log(cart);
-  //showMiniCart();
+  showMiniCart();
   showAllQuantityInCart ();//отображает общее количество в кругляшке
   saveCart();
 }
@@ -131,7 +131,7 @@ function loadCart() {
   if (localStorage.getItem("cart")) {
     //если есть - расшифровываю и записываю в переменную cart
     cart = JSON.parse(localStorage.getItem("cart"));
-    //showMiniCart;
+    showMiniCart;
   }
 }
 

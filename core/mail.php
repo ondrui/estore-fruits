@@ -21,6 +21,7 @@ if (mysqli_num_rows($result) > 0) {
     $json[$row["id"]] = $row;
   }
 }
+
 //print_r ($json);
 //письмо
 $message = '';
