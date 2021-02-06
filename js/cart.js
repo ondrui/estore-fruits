@@ -187,7 +187,7 @@ function sendEmail() {
          if(result == 1) {
             alert("Заказ успешно отправлен");
             //очистить корзину
-            //                     !!!! localStorage.clear();
+            localStorage.clear();
             //перейти на основную страницу
             document.location.href = "";
           } else {
